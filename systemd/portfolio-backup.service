@@ -1,0 +1,10 @@
+[Unit]
+Description=Verified local file backup
+
+[Service]
+Type=oneshot
+UMask=0077
+# Change these paths after copying the unit into ~/.config/systemd/user/.
+ExecStart=/usr/bin/python3 %h/backup-restore-toolkit/backup.py create %h/Documents %h/Backups
+Nice=10
+NoNewPrivileges=true
