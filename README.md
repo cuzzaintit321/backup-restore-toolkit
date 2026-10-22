@@ -1,5 +1,7 @@
 # Backup & Restore Toolkit
 
+![backup-restore-toolkit project banner](docs/project-banner.webp)
+
 A small Linux file-backup CLI with SHA-256 manifests, verified archives, isolated restores, logging, and optional systemd scheduling. Built as a new learning and portfolio project for Jason Edwards; it has not been deployed on his home server.
 
 ## Try a complete recovery
