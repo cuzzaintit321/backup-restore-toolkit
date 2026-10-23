@@ -2,8 +2,7 @@
 
 ![backup-restore-toolkit project banner](docs/project-banner.webp)
 
-A small Linux file-backup CLI with SHA-256 manifests, verified archives, isolated restores, logging, and optional systemd scheduling. Built as a new learning and portfolio project for Jason Edwards; it has not been deployed on his home server.
-
+A small Linux file-backup CLI with SHA-256 manifests, verified archives, isolated restores, logging, and optional systemd scheduling.
 ## Try a complete recovery
 
 Requires Linux and Python 3.11 or newer. No third-party Python packages are needed.
